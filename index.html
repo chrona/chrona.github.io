@@ -30,10 +30,25 @@
         </p>
     </header>
 
-    <div class="flex flex-col lg:flex-row lg:mt-8 print:flex-row print:mt-8">
-        <div class="lg:flex-1 px-4 lg:px-8 py-6 print:flex-1 print:pl-0 print:py-3">
+    <main class="flex flex-col lg:flex-row lg:mt-8 print:flex-row print:mt-8">
+        <section class="lg:flex-1 px-4 lg:px-8 py-6 print:flex-1 print:pl-0 print:py-3">
             <h2 class="text-3xl mb-1">Berufserfahrung</h2>
             <ul class="space-y-8 mb-8 print:space-y-3 print:mb-4">
+                <li>
+                    <div class="border-b border-gray-700">
+                        <p class="font-bold">Junior Software Entwickler</p>
+                        <div class="flex justify-between">
+                            <p>CHECK24 Vergleichsportal Mietwagen GmbH</p>
+                            <time>seit Januar 2021</time>
+                        </div>
+                    </div>
+
+                    <ul class="list-disc list-inside m-1">
+                        <li>Betreuung des Mietwagenvergleichs von Check24</li>
+                        <li>Umsetzung von Features für Mobile, Tablet und Desktop</li>
+                    </ul>
+                </li>
+                
                 <li>
                     <div class="border-b border-gray-700">
                         <p class="font-bold">Full-Stack Entwickler</p>
@@ -46,9 +61,9 @@
                     <ul class="list-disc list-inside m-1">
                         <li>Umsetzung von Webseiten und Webapps im Agenturbetrieb</li>
                         <li>Koordination von internen Projektabläufen</li>
-                        <li>Kundenkontakt</li>
-                        <li>technische SEO</li>
-                        <li>Performance-Optimierung</li>
+                        <li>Kundenberatung</li>
+                        <li>PageSpeed-Optimierung</li>
+                        <li>SEO / SEM</li>
                     </ul>
                 </li>
 
@@ -63,7 +78,7 @@
 
                     <ul class="list-disc list-inside m-1">
                         <li>Pflege und Weiterentwicklung von Onlineportalen im Gastro- und Gartenbereich</li>
-                        <li>technische Umsetzung von Webseiten mit HTML, CSS, JS und PHP</li>
+                        <li>Umsetzung von Webseiten weiterer Kunden</li>
                     </ul>
                 </li>
 
@@ -78,7 +93,7 @@
 
                     <ul class="list-disc list-inside m-1">
                         <li>Pflege und Weiterentwicklung von Onlineportalen im Gastro- und Gartenbereich</li>
-                        <li>technische Umsetzung von Webseiten mit HTML, CSS, JS und PHP</li>
+                        <li>Umsetzung von Webseiten weiterer Kunden</li>
                         <li>interne Datenverwaltung mit <a class="font-medium underline print:font-normal print:no-underline" href="https://de.wikipedia.org/wiki/FileMaker" target="_blank">Filemaker</a></li>
                     </ul>
 
@@ -93,14 +108,14 @@
                         <p class="font-bold">Koordination von Jugendprojekten</p>
                         <div class="flex items-end justify-between">
                             <p class="flex-1">Stadtjugendring Augsburg Jugendhaus Kosmos</p>
-                            <time>seit Herbst 2017</time>
+                            <time>Herbst 2017 - Anfang 2020</time>
                         </div>
                     </div>
 
                     <p class="mt-1">Organisation und Durchführung von Freizeitangeboten</p>
                 </li>
             </ul>
-        </div>
+        </section>
 
         <aside class="lg:w-64 bg-secondary px-4 lg:px-8 py-6 space-y-4 print:w-64 print:py-3">
             <div>
@@ -127,13 +142,21 @@
                         <h3 class="font-bold">Frontend</h3>
                         <ul>
                             <li class="inline">HTML,</li>
-
                             <li class="inline">CSS,</li>
-                            <li class="inline"><a class="font-medium underline print:font-normal print:no-underline" href="https://tailwindcss.com/" target="_blank">tailwind.css</a>,</li>
-                            <li class="inline"><a class="font-medium underline print:font-normal print:no-underline" href="https://get.foundation/" target="_blank">foundation zurb</a>,</li>
-
+                            <li class="inline">
+                                <a class="font-medium underline print:font-normal print:no-underline" href="https://tailwindcss.com/" target="_blank">tailwind.css</a>,
+                            </li>
+                            <li class="inline">
+                                <a class="font-medium underline print:font-normal print:no-underline" href="https://get.foundation/" target="_blank">foundation zurb</a>,
+                            </li>
                             <li class="inline">JavaScript (vanilla),</li>
-                            <li class="inline"><a class="font-medium underline print:font-normal print:no-underline" href="https://jquery.com/" target="_blank">jQuery</a></li>
+                            <li class="inline">React,</li>
+                            <li class="inline">Redux,</li>
+                            <li class="inline">jQuery,</li>
+                            <li class="inline"><a class="font-medium underline print:font-normal print:no-underline" href="https://knockoutjs.com/" target="_blank">
+                                Knockout.js</a>,
+                            </li>
+                            <li class="inline">Jasmine</li>
                         </ul>
                     </li>
 
@@ -141,6 +164,7 @@
                         <h3 class="font-bold">Backend</h3>
                         <ul>
                             <li class="inline">PHP,</li>
+                            <li class="inline">PHPUnit</li>
                             <li class="inline"><a class="font-medium underline print:font-normal print:no-underline" href="https://laravel.com/" target="_blank">Laravel,</a></li>
                             <li class="inline">SQL</li>
                         </ul>
@@ -158,23 +182,24 @@
                         <h3 class="font-bold">Sonstiges</h3>
                         <ul>
                             <li class="inline">Git,</li>
+                            <li class="inline">Grunt,</li>
                             <li class="inline">npm</li>
                         </ul>
                     </li>
                 </ul>
             </div>
         </aside>
-    </div>
+    </main>
 
-    <div class="flex justify-between px-4 lg:px-8 py-3 print:pl-0">
+    <footer class="flex justify-between px-4 lg:px-8 py-3 print:pl-0">
         <ul class="inline-flex">
             <li class="hidden mr-2 border-r border-black pr-2 print:block"><a href="https://chrona.github.io/">chrona.github.io</a></li>
             <li class="mr-2 border-r border-black pr-2"><a href="https://stackoverflow.com/users/2219120/chrona" target="_blank">stackoverflow<span class="hidden print:inline">.com/users/2219120/chrona</span></a></li>
             <li><a href="https://cssbattle.dev/player/vanillachrona" target="_blank">cssbattle<span class="hidden print:inline">.dev/player/vanillachrona</span></a></li>
         </ul>
 
-        <p>Stand: Juli 2020</p>
-    </div>
+        <p>Stand: Oktober 2023</p>
+    </footer>
 </div>
 
 </body>
